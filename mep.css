@@ -1,0 +1,63 @@
+  *{
+    margin:0;
+    padding:0;
+  }
+  /* #sidebar{
+    position:relative;
+    width:30% ;
+    height: 100%;
+    left: -30%;
+    background-color: black;
+}
+#sidebar li{
+  color: white;
+  font-size: 20px;
+  padding :20px;
+  border-bottom: 1px solid grey;
+  text-align:center;
+  
+} */
+.toggle-btn{
+
+  position: absolute;
+  left:105%;
+  top: 15px;
+  cursor: hand;
+}
+.toggle-btn span{
+  display: block;
+ background-color:black;
+ width:30px;
+height:5px;
+margin: 3px;  
+}
+#sidebar.active{
+  left:0;
+}
+
+.container{
+
+  height: 300px;
+  width:300px;
+  box-shadow: rgba(red, green, blue, alpha);
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+}
+.speak_btn{
+  color:gray;
+  height: 30px;
+  width: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  bottom: 30px;
+  left: 12%;
+  border-radius: 5px;
+  cursor: hand;
+}
+
+
